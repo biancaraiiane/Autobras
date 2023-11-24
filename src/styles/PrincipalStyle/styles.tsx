@@ -350,6 +350,12 @@ export const ContactUs = styled.div`
   display: flex;
   flex-direction: column;
   padding-left: 50px;
+  
+  @media (max-width: 757px) {
+ padding-left: 10px;
+    
+  }
+
 `
 export const Contact = styled.div`
   display: flex;
@@ -375,13 +381,7 @@ export const Contact = styled.div`
   /* @media (min-width: 1024px) {
     gap: 50px;
   } */
-  /* @media (max-width: 757px) {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 30px;
-    
-  } */
+  
 
   @media (min-width: 280px) {
     gap: 20px;
