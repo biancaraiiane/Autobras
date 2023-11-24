@@ -57,6 +57,7 @@ export default function Home() {
   const handleForm = async (data: emailData) => {
     await sendEmails(data)
     console.log(data)
+    reset();
   }
 
   return (
