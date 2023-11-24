@@ -17,7 +17,7 @@ export function Header() {
     <>
       <S.Container>
         <div>
-          <S.Logo src="Autobras.png" alt="logo" />
+          <S.Logo src="AutoBras.png" alt="logo" />
         </div>
         <S.Info>
           <S.Message>About AutoBras</S.Message>
