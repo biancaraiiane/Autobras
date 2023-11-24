@@ -206,7 +206,7 @@ export default function Home() {
         </S.Reviews>
         <S.FinalContent>
           <S.BoxImg>
-            <S.FootLogo src="Autobras.png" alt="foot_Logo" />
+            <S.FootLogo src="AutoBras.png" alt="foot_Logo" />
           </S.BoxImg>
           <S.ContactUs>
             <S.Contact>
