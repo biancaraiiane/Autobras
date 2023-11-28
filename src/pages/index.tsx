@@ -93,7 +93,7 @@ export default function Home() {
         <Header />
         <S.Content>
           <S.VideoContainer>
-            <S.Video autoPlay loop muted controls playsInline>
+            <S.Video autoPlay loop muted playsInline>
               <source src="autobras.mp4" type="video/mp4" />
             </S.Video>
           </S.VideoContainer>
