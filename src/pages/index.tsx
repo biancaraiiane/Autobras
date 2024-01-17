@@ -94,7 +94,7 @@ export default function Home() {
         <S.Content>
           <S.VideoContainer>
             <S.Video autoPlay loop muted playsInline>
-              <source src="autobras.mp4" type="video/mp4" />
+              <source src="autobras1.mp4" type="video/mp4" />
             </S.Video>
           </S.VideoContainer>
         </S.Content>
@@ -103,7 +103,7 @@ export default function Home() {
         </S.Box>
         <S.Container>
           <div>
-            <S.Diagram src="car-glass.png" alt="diagram" />
+            <S.Diagram src="diagram_autobras.jpeg" alt="diagram" />
           </div>
           <S.Form onSubmit={handleSubmit(handleForm)}>
             <S.FormContainer>
@@ -191,9 +191,9 @@ export default function Home() {
             rel="noreferrer"
           >
             <S.Photos>
-              <S.Photo src="autoGlass.jpeg" alt="autoGlass" />
-              <S.Photo src="car_glass.jpeg" alt="car_glass" />
-              <S.Photo src="replace.jpeg" alt="replace" />
+              <S.Photo src="newAutobras1.jpeg" alt="autoGlass" />
+              <S.Photo src="newAutobras2.jpeg" alt="car_glass" />
+              <S.Photo src="newAutobras3.jpeg" alt="replace" />
             </S.Photos>
           </a>
           <S.Link

@@ -48,7 +48,7 @@ export const Box = styled.div`
   height: 155px;
   margin: 0 auto;
   //padding: 0 1.5625rem 0 1.25rem;
-  background-color: ${({ theme }) => theme.colors.yellow};
+  background-color: ${({ theme }) => theme.colors.blueMedium};
 
   @media (max-width: 436px) {
     height: 3.75rem;
@@ -63,6 +63,7 @@ export const Text = styled.p`
   font-family: 'Istok Web', sans-serif;
   font-weight: 700;
   font-size: 54px;
+  color: #fff;
 
   @media (max-width: 874px) {
     font-size: 30px;
@@ -190,7 +191,7 @@ export const Reviews = styled.div`
   max-width: 90rem;
   height: 40.625rem;
   margin: 0 auto;
-  background-color: ${({ theme }) => theme.colors.yellow};
+  background-color: ${({ theme }) => theme.colors.blueMedium};
 
   @media (max-width: 768px) {
     /* Estilo para tablets (até 768 pixels de largura) */
@@ -212,8 +213,9 @@ export const TextReview = styled.a`
   font-family: 'Istok Web', sans-serif;
   font-size: 60px;
   text-decoration: none;
-  color: ${({ theme }) => theme.colors.black};
+  color: ${({ theme }) => theme.colors.white};
   margin-top: 15px;
+  
 
   @media (max-width: 874px) {
     font-size: 30px;
@@ -276,7 +278,7 @@ export const Link = styled.a`
   justify-content: center;
   font-family: 'Istok Web', sans-serif;
   text-decoration: none;
-  color: ${({ theme }) => theme.colors.black};
+  color: ${({ theme }) => theme.colors.white};
   margin-top: 10px;
   font-size: 30px;
 

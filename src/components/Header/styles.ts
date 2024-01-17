@@ -9,7 +9,7 @@ export const Container = styled.div`
   height: 7.375rem;
   margin: 0 auto;
   padding: 0 1.5625rem 0 1.25rem;
-  background-color: ${({ theme }) => theme.colors.yellow};
+  background-color: ${({ theme }) => theme.colors.blueMedium};
 
   @media (max-width: 436px) {
     height: 3.75rem;
@@ -32,6 +32,7 @@ export const Message = styled.p`
   line-height: normal;
   text-decoration: none;
   margin-right: 5.625rem;
+  color: #fff;
 
   @media (max-width: 1245px) {
     font-size: 1rem;
@@ -188,6 +189,7 @@ export const Messages = styled.p`
   margin-right: 12px;
   margin-bottom: 27px;
   margin-top: 41px;
+  color: #fff;
 
   @media (max-width: 951px) {
     font-size: 1rem;
