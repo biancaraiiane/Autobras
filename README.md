@@ -1,40 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Autobras - Aplicação Web
 
-## Getting Started
+Bem-vindo à aplicação web **Autobras**! Este projeto demonstra minhas habilidades em construir aplicações web robustas e responsivas com tecnologias modernas como **Next.js**, **React**, **TypeScript** e **Yup** para validação de formulários. Se você está em busca de um desenvolvedor que pode criar interfaces amigáveis, gerenciar estado de forma eficaz e lidar com integrações de APIs de email, este repositório é um ótimo exemplo do meu trabalho.
 
-First, run the development server:
+## Visão Geral do Projeto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**Autobras** é uma plataforma de serviços de vidro automotivo onde os usuários podem obter cotações preenchendo informações de contato e do veículo por meio de um formulário dinâmico. O formulário inclui validação com **Yup** e **React Hook Form**, garantindo uma experiência fluida para os usuários. A aplicação integra serviços de email para enviar cotações diretamente aos clientes.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Este projeto demonstra minha capacidade de trabalhar com:
+- Design responsivo para diferentes dispositivos
+- Integrações de API (para envio de emails)
+- Validação e gerenciamento de formulários
+- Interação do usuário com componentes React
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Funcionalidades
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- **Formulários Dinâmicos**: Os usuários podem inserir detalhes pessoais e do veículo para obter cotações de vidros automotivos.
+- **Validação de Formulários**: Os campos de entrada são validados usando **Yup** para garantir a precisão dos dados enviados.
+- **Design Responsivo**: Construído para se adaptar a diferentes tamanhos de tela.
+- **Integração com Redes Sociais**: Links para o Facebook, Instagram e email da empresa para suporte ao cliente.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Stack Tecnológica
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-## Learn More
+- **Next.js**: Renderização no lado do servidor e roteamento simplificado.
+- **React**: Arquitetura baseada em componentes para construir interfaces interativas.
+- **TypeScript**: Linguagem fortemente tipada para melhorar a qualidade do código.
+- **React Hook Form**: Manejo simplificado de formulários com benefícios de performance.
+- **Yup**: Validação de esquemas para entradas de formulário.
+- **Styled-components**: CSS-in-JS para estilização dinâmica e com escopo.
+- **API de Email**: API personalizada para enviar cotações por email para os clientes.
 
-To learn more about Next.js, take a look at the following resources:
+## Imagens
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<img src="https://github.com/user-attachments/assets/aae50963-55b0-4dcb-b1aa-32f110583ba1" alt="Captura de tela 2024-10-08 235045" width="200"/>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<img src="https://github.com/user-attachments/assets/15fecf3e-ca9d-47a9-990d-d4cc2606d2be" alt="Captura de tela 2024-10-08 235104" width="207"/>
 
-## Deploy on Vercel
+## Instalação
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Para obter uma cópia local e executar, siga os passos abaixo:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seuusuario/autobras.git
+
+
